@@ -4,7 +4,7 @@ What gets repeated across 162 tracked podcasts — claims extracted from 10,000+
 episodes, each carrying the measurement behind its status: how many independent
 podcasts and speakers repeat it, excluding whoever originated it.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1669+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1679+ live data sources.
 
 **LIVE, BYO-ONLY.** Promoted out of `_incubator` and wired into the gateway on
 2026-09-14 (fleet #1958), once Bruce's partner key existed and all eight
@@ -289,7 +289,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1669+ data sources. The
+Both URLs reach the same gateway and the same 1679+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

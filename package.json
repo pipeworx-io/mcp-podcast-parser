@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-podcast-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "podcast-parser (CanonCannon) — what gets repeated across 162 tracked podcasts.",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-0c7f54d8ebb4dce77cd207ceb33391bd6b58e8ae133a9f59761811d745fcee86",
+    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
   }
 }

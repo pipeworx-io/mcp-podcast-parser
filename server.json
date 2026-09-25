@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/podcast-parser",
   "title": "Podcast Parser",
   "description": "podcast-parser (CanonCannon) — what gets repeated across 162 tracked podcasts.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/podcast-parser",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-podcast-parser",
