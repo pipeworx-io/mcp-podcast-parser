@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-podcast-parser",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "podcast-parser (CanonCannon) — what gets repeated across 162 tracked podcasts.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-podcast-parser": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "podcast-parser"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-podcast-parser.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/podcast-parser",
   "pipeworx": {
-    "sourceHash": "v1-77b830a09e49b7d42f08080c624d69fcf2e88de78c172479fdc7ac58d03d8c90",
-    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
+    "mode": "gateway",
+    "slug": "podcast-parser",
+    "gatewaySlug": "podcast-parser",
+    "sourceHash": "v1-c69166ebb1b5f40f248cad4dc327db314b94b51ffe4b42155fe73643129e76d5",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
