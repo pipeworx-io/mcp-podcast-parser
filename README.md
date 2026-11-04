@@ -4,7 +4,7 @@ What gets repeated across 162 tracked podcasts — claims extracted from 10,000+
 episodes, each carrying the measurement behind its status: how many independent
 podcasts and speakers repeat it, excluding whoever originated it.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1856+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1867+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 **LIVE, BYO-ONLY.** Promoted out of `_incubator` and wired into the gateway on
 2026-09-14 (fleet #1958), once Bruce's partner key existed and all eight
@@ -158,9 +158,9 @@ names were confirmed unique across `mcps/*/src` at promotion.
 
 ## Data sources
 
-- <https://canoncannon.com/api/v1/openapi> — the contract. Keyless; **build tool
+- Canoncannon — the contract. Keyless; **build tool
   schemas from this artifact, not from prose.**
-- <https://canoncannon.com/api/v1/canon>, `/canon/{slug}`, `/canon/{slug}/citations`,
+- Canoncannon, `/canon/{slug}`, `/canon/{slug}/citations`,
   `/episodes`, `/episodes/{slug}`, `/people/{slug}`, `/podcasts`,
   `/podcasts/{slug}`, `/stats` — what the eight-plus-one tools wrap.
 
@@ -289,7 +289,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1856+ data sources. The
+Both URLs reach the same gateway and the same 1867+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
